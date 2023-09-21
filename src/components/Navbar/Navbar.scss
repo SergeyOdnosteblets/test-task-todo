@@ -1,0 +1,20 @@
+.navbar {
+  max-width: 600px;
+  background-color: #2b2f3e;
+  padding: 10px;
+  height: 100vh;
+
+  h2 {
+    font-size: 2rem;
+    color: white;
+  }
+
+  div {
+    color: #5b5d63;
+  }
+
+  @media (max-width: 600px) {
+    height: 100%;
+    width: 100%;
+  }
+}

@@ -1,0 +1,39 @@
+.comment {
+  display: flex;
+  width: 100%;
+  background-color: white;
+  padding: 0;
+  margin-bottom: 10px;
+  height: 50px;
+
+  .comment__color {
+    width: 50px;
+    height: 50px;
+  }
+
+  .comment__text {
+    padding-left: 10px;
+    margin: 0;
+  }
+}
+
+.components {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  justify-content: space-around;
+
+  .input__color {
+    width: 70px;
+    height: 60px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0.375rem 0.75rem;
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+
+    &:focus {
+      border: 3px solid #bbdafb;
+    }
+  }
+}

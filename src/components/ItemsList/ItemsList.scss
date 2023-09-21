@@ -1,0 +1,42 @@
+.item {
+  display: flex;
+  border: 1px solid lightgrey;
+  width: 200px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: white;
+
+  .count {
+    font-weight: bold;
+    background-color: #17a2b8;
+    padding: 2px 7px;
+    border-radius: 50%;
+    color: white;
+    font-size: 75%;
+  }
+
+  .button__del {
+    width: 70px;
+    height: 35px;
+    border: 1px solid #dc3545;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    color: #dc3545;
+
+    &:hover {
+      background-color: #dc3545;
+      color: white;
+    }
+  }
+}
+
+.active {
+  border-left: 4px solid #ff1493;
+}
